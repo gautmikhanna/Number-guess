@@ -6,7 +6,7 @@ let number= [Math.floor(Math.random()*100)];
 btn.addEventListener('click',function(){
 let input = document.getElementById('userinput').value;
 if(input == number){
-    output.innerHTML=`You Guesses Right, Your Number Was ${number}`
+    output.innerHTML=`Your Guess is Right, Your Number Was ${number}`
  }
   else if( input< number){
       output.innerHTML="You Guessed Too Low!"
